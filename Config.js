@@ -1,15 +1,15 @@
 global.settings = {
-    OWNER_NUMBERS: "2347013159244", // replace with your number
-    OWNER_NAME: 'Miracle', // desired name
-    BOT_NAME: "KORD", // desired name
+    OWNER_NUMBERS: "233247923525", // replace with your number
+    OWNER_NAME: 'MRWILL', // desired name
+    BOT_NAME: "MRWILL-available", // desired name
     VERSION: 'V1.0.0',
-    SESSION_ID: '', //put your session id between ''
+    SESSION_ID: 'eyJub2lzZUtleSI6eyJwcml2YXRlIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoid0lhL0tXaHEvaGQrSm1jeFNkckwwVC82QUxDMkdOclRHOWpySThEZzcyVT0ifSwicHVibGljIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiQjNHdm5aQlR4VWphckNKL2JGU1NUU2UrYU92RDhQTDVTZUg5TzY4dzMyZz0ifX0sInBhaXJpbmdFcGhlbWVyYWxLZXlQYWlyIjp7InByaXZhdGUiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJ1Sk5Hb1NGaUU5N0xXRHgzTndCOVFuR00rQUZBbXZnS1NDcFpQZDN5dVY0PSJ9LCJwdWJsaWMiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiIwL2wvaWU1cEg1Q0syRUZNRFhzTUs1SXkyVWV4dm10ZUMvZWtqSEJTS3hVPSJ9fSwic2lnbmVkSWRlbnRpdHlLZXkiOnsicHJpdmF0ZSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IlFDNVJyMmc0TEpraGJmdmRyVGxuYjk4S1pWS1JwMUxLVHJVSUF0aVpEVUk9In0sInB1YmxpYyI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IlVQeXBWZVA3NGN3NlJZOVBNWUdpUzJqbGVSMnZZQ1hXMUJNWktNZEZ0Rm89In19LCJzaWduZWRQcmVLZXkiOnsia2V5UGFpciI6eyJwcml2YXRlIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoicUw3RGhDc0RiaU1zYmoxODVReWpRdm1iT0V3NjBxYUhndDlMVFN1aHlsYz0ifSwicHVibGljIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiUVh5SXNwbVFtMW51M2pwdXArd3Z3K2FJbDdscnlmNko5NExPNGF6eFQzbz0ifX0sInNpZ25hdHVyZSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6Inc4OEo1eEZlbm03MXNNcDlWUEpIMXpHUVhHa1dKYnREU3FaajM0MXNIbit2dzBKc09aZGdFTjUrT0xSeE50SHY1amdWR2ovZldGYVgyd2IvTS91REJBPT0ifSwia2V5SWQiOjF9LCJyZWdpc3RyYXRpb25JZCI6NTUsImFkdlNlY3JldEtleSI6IjVmUE1oUytPNnk2QVk3elVXZkpqbUM1c0hma0NUUFRoLzRXT1RXZ0lsL289IiwicHJvY2Vzc2VkSGlzdG9yeU1lc3NhZ2VzIjpbXSwibmV4dFByZUtleUlkIjozMSwiZmlyc3RVbnVwbG9hZGVkUHJlS2V5SWQiOjMxLCJhY2NvdW50U3luY0NvdW50ZXIiOjAsImFjY291bnRTZXR0aW5ncyI6eyJ1bmFyY2hpdmVDaGF0cyI6ZmFsc2V9LCJkZXZpY2VJZCI6IlotaDVjalZwVDAteUYyd0w1RkdiUmciLCJwaG9uZUlkIjoiNzhkMjczOWYtNmE5NS00MzU2LWI0M2QtOWEyZGU0ZGE3YzRmIiwiaWRlbnRpdHlJZCI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IndZMVZhU2tOSVNQVERYMUVrakt0eTRENThOZz0ifSwicmVnaXN0ZXJlZCI6dHJ1ZSwiYmFja3VwVG9rZW4iOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJZNTFUdkpIQTVzRFN4Mnd2L2svckxndXM4Vm89In0sInJlZ2lzdHJhdGlvbiI6e30sInBhaXJpbmdDb2RlIjoiM1dENFBWQVgiLCJtZSI6eyJpZCI6IjIzMzI0NzkyMzUyNTo4MUBzLndoYXRzYXBwLm5ldCJ9LCJhY2NvdW50Ijp7ImRldGFpbHMiOiJDTzM5by9NRkVQbUoyTGdHR0FFZ0FDZ0EiLCJhY2NvdW50U2lnbmF0dXJlS2V5IjoiZ2o2U0VoSVpmTlI0S0Y4c29iYUduL1F0WHlaUW4renB3MlM1dkVvdjlHMD0iLCJhY2NvdW50U2lnbmF0dXJlIjoiMG5ySHBEejBKRnFsc21HOXEvNUhEcVpGUVdOSUp3R2RUZWpLWUlPWG56TW4vdVBQeGdUQ0lZeFY0bC9waU11a2pOS00zZzh3SkhNalcwRXBEUjNZRGc9PSIsImRldmljZVNpZ25hdHVyZSI6IlliaHVkcGN5NWw1VkNWdDJrU1ZUaHVMZFVxanlUTlhFbFAvN1NGQzVWRGdzSm1wVmNTUHNPVWlKNTFoWmRvUDk4UEFUbkE3ZkZraU5JazNoWVNWU0FBPT0ifSwic2lnbmFsSWRlbnRpdGllcyI6W3siaWRlbnRpZmllciI6eyJuYW1lIjoiMjMzMjQ3OTIzNTI1OjgxQHMud2hhdHNhcHAubmV0IiwiZGV2aWNlSWQiOjB9LCJpZGVudGlmaWVyS2V5Ijp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiQllJK2toSVNHWHpVZUNoZkxLRzJocC8wTFY4bVVKL3M2Y05rdWJ4S0wvUnQifX1dLCJwbGF0Zm9ybSI6ImFuZHJvaWQiLCJsYXN0QWNjb3VudFN5bmNUaW1lc3RhbXAiOjE3Mjk0OTYzMjYsIm15QXBwU3RhdGVLZXlJZCI6IkFBQUFBQ2JBIn0=', //put your session id between ''
     MONGO_DB_URL: 'mongodb+srv://miracle32669:Iyanu1234@cluster0.m7glm.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0',
-    WORK_MODE: "Public",
-    TIME_ZONE: "Africa/Lagos",
+    WORK_MODE: "Private",
+    TIME_ZONE: "Africa/Ghana",
     READ_ALL_MESSAGES: false,
-    PREFIX: [".", "/", "!"],
-    WELCOME_MESSAGE: "Hello! I'm KORD-AI, your friendly WhatsApp bot.",
+    PREFIX: ["."],
+    WELCOME_MESSAGE: "Hello! I'm MRWILL-AI, your friendly WhatsApp bot.",
     DEFAULT_TRANSLATION_LANG: "en",
     COMMAND_COOLDOWN_TIME_IN_MS: 2000,
     MAX_COMMANDS_PER_MINUTE: 10,
@@ -17,12 +17,12 @@ global.settings = {
     API_KEYS: {
         OPENWEATHERMAP_API_KEY: ''
     },
-    isHackEnable:true,
+    isHackEnable:false,
     SAFE_SEARCH: true,
-    REJECT_CALLS: true,
-    SEND_WELCOME_MESSAGE: false,
-    WELCOME_MESSAGE: "👋 Welcome to the group! We're glad to have you here. 😊",
-    DELETE_WA_LINKS: false,
+    REJECT_CALLS: false,
+    SEND_WELCOME_MESSAGE: true,
+    WELCOME_MESSAGE: "👋 Welcome to MRWILLTECH Bruhh....We're glad to have you here...😊",
+    DELETE_WA_LINKS: true,
     BAD_WORD_FILTER: true,
     BAD_WORDS: ['badword1', 'badword2', 'fuck', 'bitch', 'hentai'],
     ANTI_DELETE_ENABLED: true // Add this line for anti-delete feature
