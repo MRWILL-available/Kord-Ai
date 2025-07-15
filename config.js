@@ -3,25 +3,25 @@ const { existsSync } = require('fs')
 if (existsSync('config.env')) require('dotenv').config({ path: './config.env' })
 
 module.exports = {
-    SESSION_ID: process.env.SESSION_ID || '',
-    OWNER_NUMBER: process.env.OWNER_NUMBER || "2349067339193",
+    SESSION_ID: process.env.SESSION_ID || 'kord_ai-4TD8a5V9TFVqpUyQ',
+    OWNER_NUMBER: process.env.OWNER_NUMBER || "233247923525",
     WORKTYPE: process.env.WORKTYPE || "private",
     PREFIX: process.env.PREFIX || "[.]",
-    ALWAYS_ONLINE: process.env.ALWAYS_ONLINE || true,
+    ALWAYS_ONLINE: process.env.ALWAYS_ONLINE || false,
     MONGODB_URI: process.env.MONGODB_URI || "",
-    STATUS_VIEW: process.env.STATUS_VIEW || true,
+    STATUS_VIEW: process.env.STATUS_VIEW || false,
     SAVE_STATUS: process.env.SAVE_STATUS || false,
     LIKE_STATUS: process.env.SAVE_STATUS || false,
-    STATUS_EMOJI: process.env.STATUS_EMOJI || "🥏",
+    STATUS_EMOJI: process.env.STATUS_EMOJI || "false",
     ERROR_MSG: process.env.ERROR_MSG || true,
-    TIMEZONE: process.env.TIMEZONE || "Africa/Lagos",
+    TIMEZONE: process.env.TIMEZONE || "Africa/Accra",
     CAPTION: process.env.CAPTION || "",
     STICKER_PACKNAME: process.env.STICKER_PACKNAME || "Kord",
     STICKER_AUTHOR: process.env.STICKER_AUTHOR || "🤍",
     BOT_PRESENCE: process.env.BOT_PRESENCE || "available", // for online, "composing" for typing 
     REACT: process.env.REACT || false,
     READ_MESSAGE: process.env.READ_MESSAGE || "false",
-    OWNER_NAME: process.env.OWNER_NAME || "Mirage",
+    OWNER_NAME: process.env.OWNER_NAME || "MRWILL-available",
     BOT_NAME: process.env.BOT_NAME || "Kord",
     RENDER_API_KEY: process.env.RENDER_API_KEY,
     ANTIDELETE: process.env.ANTIDELETE || "on",
@@ -29,7 +29,7 @@ module.exports = {
     ANTI_EDIT: process.env.ANTI_EDIT || "off",
     ANTI_EDIT_IN_CHAT: process.env.ANTI_EDIT_IN_CHAT || "off",
     AUDIO_DATA: process.env.AUDIO_DATA || "Kord;🤍",
-    SUDO: process.env.SUDO || "", // example: 23412345667,2341234567
+    SUDO: process.env.SUDO || "233247923525", // example: 23412345667,2341234567
     MODS: process.env.MODS || "",
     REJECT_CALL: process.env.REJECT_CALL || "off",
     WARNCOUNT: process.env.WARNCOUNT || "4",
@@ -39,8 +39,8 @@ module.exports = {
     CMD_REACT: process.env.CMD_REACT || "off",
     LOG_MESSAGES: process.env.LOG_MESSAGES || "off",
     STARTUP_MSG: process.env.STARTUP_MSG || "on",
-    MENU_IMAGE: process.env.MENU_IMAGE || "",
-    WELCOME_MESSAGE: process.env.WELCOME_MESSAGE ||  `╭━━━々 𝚆 𝙴 𝙻 𝙲 𝙾 𝙼 𝙴 々━━━╮
+    MENU_IMAGE: process.env.MENU_IMAGE || "true",
+    WELCOME_MESSAGE: process.env.WELCOME_MESSAGE ||  `╭━━━々false━━╮
 ┃ ➺ *々 Welcome @user! to @gname*
 ┃ ➺ *々 Members: @count*
 ┃ ➺ We Hope You Have A Nice Time Here!
